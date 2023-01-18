@@ -24,7 +24,7 @@ body {
 .destination-container {
     display: flex;
     flex-flow: wrap;
-    justify-content: center;
+    justify-content: right;
 }
 
 .destination {
@@ -35,7 +35,7 @@ body {
     min-height: 200px;
     flex: 0 1 200px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     text-align: center;
 }
@@ -48,13 +48,13 @@ h2 {
     margin: 0;
     transform: rotate(-45deg);
     transition: transform 0.5s;
-    text-shadow: 0 0 5px #01579b;
+    text-shadow: 0 0 5px #31579b;
 }
 
 #belize {
-    background-color: #5ed1f2;
+    background-color: #7ed1f2;
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: #500000;
 }
